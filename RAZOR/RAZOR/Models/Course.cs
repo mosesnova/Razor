@@ -13,6 +13,7 @@ namespace RAZOR.Models
         public string Title { get; set; }
         public int Credits { get; set; }
 
+        public string Language { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; }
 
     }
